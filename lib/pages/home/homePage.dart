@@ -7,5 +7,10 @@ class HomePage extends StatefulWidget {
 
 class _HomePageState extends State<HomePage> {
   @override
-  Widget build(BuildContext context) => Scaffold();
+  Widget build(BuildContext context) => Scaffold(
+        appBar: AppBar(
+          title: Text('Firebase Flutter'),
+          centerTitle: true,
+        ),
+      );
 }

@@ -8,7 +8,7 @@ class ConfigPage extends StatelessWidget {
       title: 'Firebase Flutter',
       debugShowCheckedModeBanner: false,
       theme: ThemeData(
-        primarySwatch: Colors.blue,
+        primarySwatch: Colors.pink,
       ),
       home: HomePage(),
     );
